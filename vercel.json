@@ -1,3 +1,6 @@
 {
-  "version": 2
+  "rewrites": [
+    { "source": "/old-route", "destination": "/new-route" },
+    { "source": "/api/send", "destination": "/api/send" }
+  ]
 }
