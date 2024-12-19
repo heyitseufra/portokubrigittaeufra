@@ -21,3 +21,14 @@ export default function Home() {
     </main>
   );
 }
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: Home(),
+  },
+  {
+    path: '/test',
+    element: Test(),
+  }
+]);
