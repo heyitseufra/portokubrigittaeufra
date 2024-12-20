@@ -7,34 +7,41 @@ import ProjectTag from "./ProjectTag";
 const projectsData = [
   {
     id: 1,
-    title: "PowerBI Portfolio - Java's Major City Tourism",
-    description: "An interactive Power BI dashboard showcasing key insights into tourism data from 5 major cities in Java Island.",
+    title: "PowerBI Portfolio - Java&apos;s Major City Tourism",
+    description:
+      "An interactive Power BI dashboard showcasing key insights into tourism data from 5 major cities in Java Island.",
     image: "/images/projects/wisata.png",
     previewUrl: "/projects/1",
-    gitUrl: "https://drive.google.com/file/d/11QifiAaE_ua-Xohp2gLgu4kwzFMZ6LAE/view",
+    gitUrl:
+      "https://drive.google.com/file/d/11QifiAaE_ua-Xohp2gLgu4kwzFMZ6LAE/view",
     tag: ["All", "Data"],
   },
   {
     id: 2,
     title: "Breast Cancer Detection Data Analysis",
-    description: "A machine learning model to analyze and predict breast cancer cases using structured datasets.",
+    description:
+      "A machine learning model to analyze and predict breast cancer cases using structured datasets.",
     image: "/images/projects/PSD.png",
     previewUrl: "/projects/2",
-    gitUrl: "https://drive.google.com/drive/folders/1YEnpIECp-dZcivPkO3xOIFDNbvSGHIft",
+    gitUrl:
+      "https://drive.google.com/drive/folders/1YEnpIECp-dZcivPkO3xOIFDNbvSGHIft",
     tag: ["All", "Data"],
   },
   {
     id: 3,
     title: "Portofolio Sistem Pencarian Biaya Perjalanan: Routwise",
-    description: "A system to optimize travel cost searching with interactive UI.",
+    description:
+      "A system to optimize travel cost searching with interactive UI.",
     image: "/images/projects/Routewise.png",
     previewUrl: "/projects/3",
-    gitUrl: "https://drive.google.com/drive/folders/1iHbfbMPPAfRbx7TD62GciZNdjtEJMJEH",
+    gitUrl:
+      "https://drive.google.com/drive/folders/1iHbfbMPPAfRbx7TD62GciZNdjtEJMJEH",
     tag: ["All", "Mobile"],
   },
   {
     id: 4,
-    title: "Portofolio Aplikasi Operasional untuk Manajemen Catering Brilla Futura",
+    title:
+      "Portofolio Aplikasi Operasional untuk Manajemen Catering Brilla Futura",
     description: "A management application for catering operations.",
     image: "/images/projects/lite.png",
     previewUrl: "/projects/4",
@@ -43,11 +50,14 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Portofolio UI/UX Design Tiny Treasure: Aplikasi Pengembangan Literasi Keuangan Anak-Anak",
-    description: "A UI/UX design project focusing on financial literacy for kids.",
+    title:
+      "Portofolio UI/UX Design Tiny Treasure: Aplikasi Pengembangan Literasi Keuangan Anak-Anak",
+    description:
+      "A UI/UX design project focusing on financial literacy for kids.",
     image: "/images/projects/tiny.png",
     previewUrl: "/projects/5",
-    gitUrl: "https://drive.google.com/file/d/1F1uOLa_s9yv31-A95IDOemcQo8-HWZam/view",
+    gitUrl:
+      "https://drive.google.com/file/d/1F1uOLa_s9yv31-A95IDOemcQo8-HWZam/view",
     tag: ["All", "UI/UX Design"],
   },
   {
@@ -56,34 +66,41 @@ const projectsData = [
     description: "A data analysis project on Portuguese student performance.",
     image: "/images/projects/portuguese.png",
     previewUrl: "/projects/6",
-    gitUrl: "https://drive.google.com/drive/folders/1pdBDOobDvp0wzRPOB5YT6Sneshj8Ongt?usp=sharing",
+    gitUrl:
+      "https://drive.google.com/drive/folders/1pdBDOobDvp0wzRPOB5YT6Sneshj8Ongt?usp=sharing",
     tag: ["All", "Data"],
   },
   {
     id: 7,
-    title: "Portofolio UI/UX Design Blossom: Aplikasi Pemantau Kesehatan Fisik dan Mental Ibu",
+    title:
+      "Portofolio UI/UX Design Blossom: Aplikasi Pemantau Kesehatan Fisik dan Mental Ibu",
     description: "A health tracking app for mothers and babies.",
     image: "/images/projects/blossom.png",
     previewUrl: "/projects/7",
-    gitUrl: "https://drive.google.com/file/d/12-YhwvGTrypQh2-XlCM9uYA88De6F-WM/view?usp=sharing",
+    gitUrl:
+      "https://drive.google.com/file/d/12-YhwvGTrypQh2-XlCM9uYA88De6F-WM/view?usp=sharing",
     tag: ["All", "UI/UX Design"],
   },
   {
     id: 8,
-    title: "Portofolio Implementasi Backpropagation untuk Klasifikasi Gambar Pose Yoga",
+    title:
+      "Portofolio Implementasi Backpropagation untuk Klasifikasi Gambar Pose Yoga",
     description: "An AI project classifying yoga poses using backpropagation.",
     image: "/images/projects/yoga.png",
     previewUrl: "/projects/8",
-    gitUrl: "https://drive.google.com/file/d/1bIFtGX5QAciOjCVUXwsmBdKa2s8TkJ39/view?usp=sharing",
+    gitUrl:
+      "https://drive.google.com/file/d/1bIFtGX5QAciOjCVUXwsmBdKa2s8TkJ39/view?usp=sharing",
     tag: ["All", "Data"],
   },
   {
     id: 9,
-    title: "Portofolio Brawithu: Aplikasi Pencegahan dan Penanganan Pelecehan Seksual di Universitas Brawijaya",
+    title:
+      "Portofolio Brawithu: Aplikasi Pencegahan dan Penanganan Pelecehan Seksual di Universitas Brawijaya",
     description: "A mobile app to prevent and handle sexual harassment cases.",
     image: "/images/projects/braw.png",
     previewUrl: "/projects/9",
-    gitUrl: "https://drive.google.com/file/d/1rE6vBvRq1GhwLv66_LEE6e8xw3_QgihU/view?usp=sharing",
+    gitUrl:
+      "https://drive.google.com/file/d/1rE6vBvRq1GhwLv66_LEE6e8xw3_QgihU/view?usp=sharing",
     tag: ["All", "Mobile", "UI/UX Design"],
   },
 ];
