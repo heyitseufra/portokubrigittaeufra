@@ -1,4 +1,4 @@
-import ProjectSection from "@/app/components/ProjectSection";
+import ProjectSection from "../components/ProjectsSection";
 
 export default function ProjectsPage() {
   return <ProjectSection />;
