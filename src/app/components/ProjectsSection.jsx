@@ -24,7 +24,7 @@ const projectsData = [
     image: "/images/projects/PSD.png",
     previewUrl: "/projects/2",
     gitUrl:
-      "https://drive.google.com/drive/folders/1YEnpIECp-dZcivPkO3xOIFDNbvSGHIft",
+      "https://drive.google.com/file/d/17AvGWaCQGsc1zUWtLC29MlYXGI7jdJX8/view?usp=sharing",
     tag: ["All", "Data"],
   },
   {
@@ -35,7 +35,7 @@ const projectsData = [
     image: "/images/projects/Routewise.png",
     previewUrl: "/projects/3",
     gitUrl:
-      "https://drive.google.com/drive/folders/1iHbfbMPPAfRbx7TD62GciZNdjtEJMJEH",
+      "https://drive.google.com/drive/folders/1K73oCuOhrB82ezosJ4AWzIA5UkyQ5BaY?usp=sharing",
     tag: ["All", "Mobile"],
   },
   {
