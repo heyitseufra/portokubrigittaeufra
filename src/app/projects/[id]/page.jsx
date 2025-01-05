@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 const projectsData = [
   {
     id: 1,
-    title: "PowerBI Portfolio - Java&apos;s Major City Tourism",
+    title: "PowerBI Portfolio - Java's Major City Tourism",
     description:
       "An interactive Power BI dashboard showcasing key insights into tourism data from 5 major cities in Java Island.",
     details: `
