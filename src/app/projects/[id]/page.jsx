@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { notFound } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
 
 const projectsData = [
   {
@@ -146,7 +146,8 @@ const projectsData = [
   },
 ];
 
-export default function ProjectPage({ params }) {
+export default function ProjectPage() {
+  const params = useParams();
   const { id } = params;
   const project = projectsData.find((p) => p.id === parseInt(id, 10));
 
