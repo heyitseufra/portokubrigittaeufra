@@ -129,7 +129,7 @@ const projectsData = [
       "An end-to-end analytics dashboard merging SEO, sales, and customer behavior to drive data-informed marketing strategies.",
     details: `
        This project was designed to enhance both paid campaign performance and organic search visibility by analyzing user behavior, seasonal trends, and SEO outcomes. Built an interactive dashboard in Looker Studio that merged SEO metrics, customer behavior, and sales data into a single, strategic reporting view. Leveraged SQL and Python to uncover booking trends linked to Australian and Indonesian seasonal cycles. Translated findings into a 60-page data-driven marketing report with pricing insights and timing strategies, which was adopted by the marketing team and influenced future campaign execution. Developed a full-funnel analytics tool from pipeline to visualization to strategic insight delivery, demonstrating measurable impact in a real-world e-commerce context through accurate data tracking and effective use of analytics tools.`,
-    image: "/images/projects/braw.png",
+    image: "/images/projects/travlr.jpg",
     gitUrl:
       "https://drive.google.com/file/d/1qyfbMYIgBUdduCw2s2Nzxr7cHky8Stjg/view?usp=sharing",
   },
