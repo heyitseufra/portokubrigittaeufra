@@ -25,7 +25,7 @@ const HeroSection = () => {
                 sequence={[
                   "Brigitta Eufra",
                   1000,
-                  "Informatics Engineering Student",
+                  "Informatics Engineering Graduate",
                   1000,
                   "Data Scientist",
                   1000,
@@ -50,10 +50,10 @@ const HeroSection = () => {
           <div className="mx-auto px-4 my-6 max-w-screen-lg">
             <div className="grid grid-cols-[repeat(auto-fit,_minmax(160px,_1fr))] gap-3 place-items-center">
               {[
-                "Putri Brawijaya Berbakat 2023",
-                "Azure AI Engineer – Digital Talent Scholarship Awardee",
-                "Front-End Developer Mentee – Digistar Class 2024",
-                "UI/UX Designer – Raion Community",
+                "Ex-ID Mall Strategy Intern at TikTok",
+                "Ex-Data Analyst Intern at TRAVLR - The Future of Travel Commerce",
+                "Azure AI Engineer - Digital Talent Scholarship Awardee",
+                "Front-End Developer Mentee Digistar Class 2024",
               ].map((achievement, index) => (
                 <div
                   key={index}
@@ -80,11 +80,19 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1BGfPsa45jdcxc9N-mCwMmPGLFXajjAsl/view?usp=sharing"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              href="https://drive.google.com/file/d/1VcYYrSHfDQ1kQ9HOAwhrWwIAEQUZHsvX/view?usp=sharing"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
+              </span>
+            </Link>
+            <Link
+              href="https://drive.google.com/file/d/129X5eY4fcSQCpvViYCZ9PHAV49XAc1jj/view?usp=sharing"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+            >
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                Awards & Recognition
               </span>
             </Link>
           </div>

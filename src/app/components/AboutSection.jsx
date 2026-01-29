@@ -10,40 +10,92 @@ const TAB_DATA = [
     content: (
       <ul className="grid grid-cols-2 gap-x-8 gap-y-4 pl-2">
         <li className="flex items-center gap-2">
-          <img src="/images/projects/powerbi.png" alt="Power BI" className="w-6 h-6" /> Power BI
+          <img
+            src="/images/projects/powerbi.png"
+            alt="Power BI"
+            className="w-6 h-6"
+          />{" "}
+          Power BI
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/figma.png" alt="Figma" className="w-4 h-6" /> Figma
+          <img
+            src="/images/projects/figma.png"
+            alt="Figma"
+            className="w-4 h-6"
+          />{" "}
+          Figma
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/jupyter.png" alt="Jupyter Notebook" className="w-6 h-7" /> Jupyter Notebook
+          <img
+            src="/images/projects/jupyter.png"
+            alt="Jupyter Notebook"
+            className="w-6 h-7"
+          />{" "}
+          Jupyter Notebook
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/tableu.png" alt="Tableu" className="w-7 h-7" /> Tableu
+          <img
+            src="/images/projects/tableu.png"
+            alt="Tableu"
+            className="w-7 h-7"
+          />{" "}
+          Tableu
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/colab.png" alt="Google Colab" className="w-7 h-4" /> Google Colab
+          <img
+            src="/images/projects/colab.png"
+            alt="Google Colab"
+            className="w-7 h-4"
+          />{" "}
+          Google Colab
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/excel.png" alt="Microsoft Excel" className="w-8 h-7" /> Microsoft Excel
+          <img
+            src="/images/projects/excel.png"
+            alt="Microsoft Excel"
+            className="w-8 h-7"
+          />{" "}
+          Microsoft Excel
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/python.png" alt="Python" className="w-7 h-7" /> Python
+          <img
+            src="/images/projects/python.png"
+            alt="Python"
+            className="w-7 h-7"
+          />{" "}
+          Python
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/canva.png" alt="Canva" className="w-10 h-6" /> Canva
+          <img
+            src="/images/projects/canva.png"
+            alt="Canva"
+            className="w-10 h-6"
+          />{" "}
+          Canva
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/html.png" alt="HTML" className="w-9 h-9" /> HTML
+          <img src="/images/projects/html.png" alt="HTML" className="w-9 h-9" />{" "}
+          HTML
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/css.png" alt="CSS" className="w-6 h-8" /> CSS
+          <img src="/images/projects/css.png" alt="CSS" className="w-6 h-8" />{" "}
+          CSS
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/js.png" alt="JavaScript" className="w-6 h-6" /> JavaScript
+          <img
+            src="/images/projects/js.png"
+            alt="JavaScript"
+            className="w-6 h-6"
+          />{" "}
+          JavaScript
         </li>
         <li className="flex items-center gap-2">
-          <img src="/images/projects/react.png" alt="React" className="w-8 h-7" /> React
+          <img
+            src="/images/projects/react.png"
+            alt="React"
+            className="w-8 h-7"
+          />{" "}
+          React
         </li>
       </ul>
     ),
@@ -91,7 +143,16 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a 5th semester Informatics Engineering student at Universitas Brawijaya, passionate about technology, problem-solving, and creating impactful solutions. Balancing my roles as a Data Scientist, Front-End Developer, and UI/UX Designer, I combine analytical precision with creative design. Through leadership roles and hands-on projects, I strive to bridge innovation and purpose, using data and technology to make a meaningful difference.
+            I am a Fresh Graduate in Computer Science from Universitas
+            Brawijaya, passionate about leveraging technology to drive business
+            impact. With experience as a Strategy Intern at TikTok and Data
+            Analyst at Travlr, I combine data-driven thinking with technical
+            versatility across analytics (SQL, Excel, Looker Studio), front-end
+            development, and UI/UX design. As an international summit delegate
+            and recipient of 10+ technology awards, I bring both analytical
+            rigor and creative problem-solving. I thrive in dynamic environments
+            and am eager to grow across functions while creating meaningful
+            impact through innovation.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

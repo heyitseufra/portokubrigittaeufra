@@ -13,7 +13,7 @@ const projectsData = [
     image: "/images/projects/wisata.png",
     previewUrl: "/projects/1",
     gitUrl:
-      "https://drive.google.com/file/d/11QifiAaE_ua-Xohp2gLgu4kwzFMZ6LAE/view",
+      "https://drive.google.com/file/d/1_ba2KGkAB0GPLWX8i3Su1tz_MOozrOcP/view?usp=sharing",
     tag: ["All", "Data"],
   },
   {
@@ -24,7 +24,7 @@ const projectsData = [
     image: "/images/projects/PSD.png",
     previewUrl: "/projects/2",
     gitUrl:
-      "https://drive.google.com/file/d/17AvGWaCQGsc1zUWtLC29MlYXGI7jdJX8/view?usp=sharing",
+      "https://drive.google.com/file/d/1X3x7pY3GC4TUDjQs4L81x0DsdFxqXUVC/view?usp=sharing",
     tag: ["All", "Data"],
   },
   {
@@ -35,7 +35,7 @@ const projectsData = [
     image: "/images/projects/Routewise.png",
     previewUrl: "/projects/3",
     gitUrl:
-      "https://drive.google.com/drive/folders/1K73oCuOhrB82ezosJ4AWzIA5UkyQ5BaY?usp=sharing",
+      "https://drive.google.com/drive/folders/1oqWOb_qUNG-52GgqxUr-WkQlMxTF0Cnu?usp=sharing",
     tag: ["All", "Mobile"],
   },
   {
@@ -45,7 +45,7 @@ const projectsData = [
     description: "A management application for catering operations.",
     image: "/images/projects/lite.png",
     previewUrl: "/projects/4",
-    gitUrl: "https://github.com/heyitseufra/BrillaApp",
+    gitUrl: " https://github.com/heyitseufra/BrillaApp",
     tag: ["All", "Mobile"],
   },
   {
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/projects/tiny.png",
     previewUrl: "/projects/5",
     gitUrl:
-      "https://drive.google.com/file/d/1F1uOLa_s9yv31-A95IDOemcQo8-HWZam/view",
+      "https://drive.google.com/file/d/1uVRoQpGwxXkn17XhVOLUQgMI7IJd6KBQ/view?usp=sharing ",
     tag: ["All", "UI/UX Design"],
   },
   {
@@ -67,7 +67,7 @@ const projectsData = [
     image: "/images/projects/portuguese.png",
     previewUrl: "/projects/6",
     gitUrl:
-      "https://drive.google.com/drive/folders/1pdBDOobDvp0wzRPOB5YT6Sneshj8Ongt?usp=sharing",
+      "https://drive.google.com/drive/folders/1EGkNoq2qHr0X9_hNSBpozVRADcSQCfb5?usp=sharing",
     tag: ["All", "Data"],
   },
   {
@@ -78,7 +78,7 @@ const projectsData = [
     image: "/images/projects/blossom.png",
     previewUrl: "/projects/7",
     gitUrl:
-      "https://drive.google.com/file/d/12-YhwvGTrypQh2-XlCM9uYA88De6F-WM/view?usp=sharing",
+      "https://drive.google.com/file/d/1ZUsseE-4GJnei-1bn4rUuHlggogwfxNy/view?usp=sharing",
     tag: ["All", "UI/UX Design"],
   },
   {
@@ -89,7 +89,7 @@ const projectsData = [
     image: "/images/projects/yoga.png",
     previewUrl: "/projects/8",
     gitUrl:
-      "https://drive.google.com/file/d/1bIFtGX5QAciOjCVUXwsmBdKa2s8TkJ39/view?usp=sharing",
+      "https://drive.google.com/file/d/1gaNLm8xbrCNeCXfzzD4dtuIfjIjDC_TP/view?usp=sharing",
     tag: ["All", "Data"],
   },
   {
@@ -100,8 +100,31 @@ const projectsData = [
     image: "/images/projects/braw.png",
     previewUrl: "/projects/9",
     gitUrl:
-      "https://drive.google.com/file/d/1rE6vBvRq1GhwLv66_LEE6e8xw3_QgihU/view?usp=sharing",
+      "https://drive.google.com/file/d/1-iIaLdkMmPG5-Xv-DnLa9tzW23uNAGZ0/view?usp=sharing",
     tag: ["All", "Mobile", "UI/UX Design"],
+  },
+  {
+    id: 10,
+    title:
+      "Performance-Driven SEO & Sales Insights Dashboard for Strategic Campaigns at The Bali Bible",
+    description:
+      "An end-to-end analytics dashboard merging SEO, sales, and customer behavior to drive data-informed marketing strategies.",
+    image: "/images/projects/travlr.jpg",
+    previewUrl: "/projects/10",
+    gitUrl:
+      "https://drive.google.com/file/d/1qyfbMYIgBUdduCw2s2Nzxr7cHky8Stjg/view?usp=sharing",
+    tag: ["All", "Data"],
+  },
+  {
+    id: 11,
+    title:
+      "2026 Joint Business Plan: Strategic Partnership Program for Seller Growth at TikTok Shop | Tokopedia",
+    description:
+      "End-to-end strategic initiative driving seller partnerships, performance tracking, and cross-functional collaboration for e-commerce growth.",
+    image: "/images/projects/tiktok.png",
+    previewUrl: "/projects/11",
+    gitUrl: "",
+    tag: ["All", "Data"],
   },
 ];
 
@@ -113,7 +136,7 @@ const ProjectsSection = () => {
   const handleTagChange = (newTag) => setTag(newTag);
 
   const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+    project.tag.includes(tag),
   );
 
   const cardVariants = {

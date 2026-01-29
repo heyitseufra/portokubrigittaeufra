@@ -121,6 +121,29 @@ const projectsData = [
     gitUrl:
       "https://drive.google.com/file/d/1rE6vBvRq1GhwLv66_LEE6e8xw3_QgihU/view?usp=sharing",
   },
+  {
+    id: 10,
+    title:
+      "Performance-Driven SEO & Sales Insights Dashboard for Strategic Campaigns at The Bali Bible",
+    description:
+      "An end-to-end analytics dashboard merging SEO, sales, and customer behavior to drive data-informed marketing strategies.",
+    details: `
+       This project was designed to enhance both paid campaign performance and organic search visibility by analyzing user behavior, seasonal trends, and SEO outcomes. Built an interactive dashboard in Looker Studio that merged SEO metrics, customer behavior, and sales data into a single, strategic reporting view. Leveraged SQL and Python to uncover booking trends linked to Australian and Indonesian seasonal cycles. Translated findings into a 60-page data-driven marketing report with pricing insights and timing strategies, which was adopted by the marketing team and influenced future campaign execution. Developed a full-funnel analytics tool from pipeline to visualization to strategic insight delivery, demonstrating measurable impact in a real-world e-commerce context through accurate data tracking and effective use of analytics tools.`,
+    image: "/images/projects/braw.png",
+    gitUrl:
+      "https://drive.google.com/file/d/1qyfbMYIgBUdduCw2s2Nzxr7cHky8Stjg/view?usp=sharing",
+  },
+  {
+    id: 11,
+    title:
+      "2026 Joint Business Plan: Strategic Partnership Program for Seller Growth at TikTok Shop | Tokopedia",
+    description:
+      "End-to-end strategic initiative driving seller partnerships, performance tracking, and cross-functional collaboration for e-commerce growth.",
+    details: `
+       Supported the development of a comprehensive seller benefits program aimed at scaling partnerships and driving platform GMV growth. Built weekly performance dashboards using SQL and Excel to track incentive programs and campaign effectiveness across 175+ sellers including Unilever, Paragon, and Lenovo. Developed an external pitch deck for the 2026 Joint Business Plan targeting 300+ seller onboarding (71% growth projection), translating data insights into strategic narratives for partner engagement. Collaborated cross-functionally with account management, legal, and operations teams to align timelines, ensure shared accountability, and execute partnership workflows from sales pitch to contract finalization. Conducted ad-hoc competitive analysis and strategic planning to support decision-making in a fast-paced e-commerce environment. This experience reinforced how data becomes most powerful when it enables alignment and informed decisions across teams, particularly in supporting both large enterprises and micro-businesses within the TikTok Shop and Tokopedia ecosystem.`,
+    image: "/images/projects/tiktok.png",
+    gitUrl: "",
+  },
 ];
 
 export default function ProjectPage({ params }) {
