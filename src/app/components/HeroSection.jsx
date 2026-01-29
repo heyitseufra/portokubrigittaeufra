@@ -80,6 +80,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
+              target="_blank"
               href="https://drive.google.com/file/d/1VcYYrSHfDQ1kQ9HOAwhrWwIAEQUZHsvX/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
@@ -88,6 +89,7 @@ const HeroSection = () => {
               </span>
             </Link>
             <Link
+              target="_blank"
               href="https://drive.google.com/file/d/129X5eY4fcSQCpvViYCZ9PHAV49XAc1jj/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
