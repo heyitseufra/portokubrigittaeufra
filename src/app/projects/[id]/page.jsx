@@ -15,7 +15,7 @@ const projectsData = [
       of tourist destinations, complete with latitude and longitude coordinates and city names, making it easier for users to identify trends and patterns in regional tourism.`,
     image: "/images/projects/wisata.png",
     gitUrl:
-      "https://drive.google.com/file/d/11QifiAaE_ua-Xohp2gLgu4kwzFMZ6LAE/view",
+      "https://drive.google.com/file/d/1_ba2KGkAB0GPLWX8i3Su1tz_MOozrOcP/view?usp=sharing",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const projectsData = [
       providing a strong foundation for future clinical research and scientific advancements in medical science.`,
     image: "/images/projects/PSD.png",
     gitUrl:
-      "https://drive.google.com/drive/folders/1YEnpIECp-dZcivPkO3xOIFDNbvSGHIft",
+      "https://drive.google.com/file/d/1X3x7pY3GC4TUDjQs4L81x0DsdFxqXUVC/view?usp=sharing",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const projectsData = [
       to train fare information, providing an efficient solution for people planning cost-effective travel.`,
     image: "/images/projects/Routewise.png",
     gitUrl:
-      "https://drive.google.com/drive/folders/1iHbfbMPPAfRbx7TD62GciZNdjtEJMJEH",
+      "https://drive.google.com/drive/folders/1oqWOb_qUNG-52GgqxUr-WkQlMxTF0Cnu?usp=sharing",
   },
   {
     id: 4,
@@ -70,7 +70,7 @@ const projectsData = [
       Parental involvement in the financial literacy program also has a positive impact, indirectly shaping wise financial habits in children.`,
     image: "/images/projects/tiny.png",
     gitUrl:
-      "https://drive.google.com/file/d/1F1uOLa_s9yv31-A95IDOemcQo8-HWZam/view",
+      "https://drive.google.com/file/d/1uVRoQpGwxXkn17XhVOLUQgMI7IJd6KBQ/view?usp=sharing ",
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ const projectsData = [
       Additionally, understanding leisure time activities can guide the design of appropriate learning strategies or extracurricular activities.`,
     image: "/images/projects/portuguese.png",
     gitUrl:
-      "https://drive.google.com/drive/folders/1pdBDOobDvp0wzRPOB5YT6Sneshj8Ongt?usp=sharing",
+      "https://drive.google.com/drive/folders/1EGkNoq2qHr0X9_hNSBpozVRADcSQCfb5?usp=sharing",
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ const projectsData = [
       Blossom includes positive affirmation features to keep mothers happy, alongside comprehensive tools to track health and development milestones.`,
     image: "/images/projects/blossom.png",
     gitUrl:
-      "https://drive.google.com/file/d/12-YhwvGTrypQh2-XlCM9uYA88De6F-WM/view?usp=sharing",
+      "https://drive.google.com/file/d/1ZUsseE-4GJnei-1bn4rUuHlggogwfxNy/view?usp=sharing",
   },
   {
     id: 8,
@@ -108,7 +108,7 @@ const projectsData = [
       for image recognition tasks, proposing Convolutional Neural Networks (CNNs) as a more efficient alternative.`,
     image: "/images/projects/yoga.png",
     gitUrl:
-      "https://drive.google.com/file/d/1bIFtGX5QAciOjCVUXwsmBdKa2s8TkJ39/view?usp=sharing",
+      "https://drive.google.com/file/d/1gaNLm8xbrCNeCXfzzD4dtuIfjIjDC_TP/view?usp=sharing",
   },
   {
     id: 9,
@@ -119,7 +119,7 @@ const projectsData = [
        BRAwithU application is designed as a comprehensive support tool to address and prevent sexual harassment incidents within the Universitas Brawijaya community. This Android-based platform includes advanced features such as a Panic Button for immediate assistance, a Quick Reporting System to enable victims or witnesses to report incidents efficiently, and Integrated Counseling Services to provide emotional and psychological support.`,
     image: "/images/projects/braw.png",
     gitUrl:
-      "https://drive.google.com/file/d/1rE6vBvRq1GhwLv66_LEE6e8xw3_QgihU/view?usp=sharing",
+      "https://drive.google.com/file/d/1-iIaLdkMmPG5-Xv-DnLa9tzW23uNAGZ0/view?usp=sharing",
   },
   {
     id: 10,
